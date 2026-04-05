@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tabelaLogin.dados.forEach((e) => {
 
                 if (e.login == login.toLocaleLowerCase() && e.senha == senha.toLocaleLowerCase()) {
-                    window.location.href = "https://www.youreventplan.netlify.app/veriCerti.html";
+                    window.location.href ="https://youreventplan.netlify.app/vericerti";
                 } else {
                     alert("Login ou Senha incorretos!")
                 }
